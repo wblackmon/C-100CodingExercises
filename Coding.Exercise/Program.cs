@@ -111,6 +111,6 @@ foreach (string input in inputs)
 
 string PalindromeResult(bool isPalindrome, string input)
 {
-    return $"{input}: {isPalindrome}\n";
+    return $"{input}: {isPalindrome}";
 }
 
