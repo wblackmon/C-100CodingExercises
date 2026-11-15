@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Coding.Exercise/1.0.0": {
+        "dependencies": {
+          "EnumerablePrinter": "2.2.1"
+        },
+        "runtime": {
+          "Coding.Exercise.dll": {}
+        }
+      },
+      "EnumerablePrinter/2.2.1": {
+        "runtime": {
+          "lib/net8.0/EnumerablePrinter.dll": {
+            "assemblyVersion": "2.2.1.0",
+            "fileVersion": "2.2.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Coding.Exercise/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EnumerablePrinter/2.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/TVgcZf3KrPVqjO5iiKaTdZFP6Gfjt8+LCv0f/N+c/BrFSmNHBWoLccl9emaGCO56xK349LYBm4zx/KogVEpbg==",
+      "path": "enumerableprinter/2.2.1",
+      "hashPath": "enumerableprinter.2.2.1.nupkg.sha512"
+    }
+  }
+}

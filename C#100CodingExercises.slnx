@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Coding.Exercise/Coding.Exercise.csproj" />
+  <Project Path="Exercises/Exercises.csproj" />
+</Solution>

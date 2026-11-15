@@ -1,0 +1,17 @@
+C:\Users\wayne\source\repos\udemy\C#100CodingExercises\Coding.Exercise\bin\Debug\net10.0\Coding.Exercise.exe
+C:\Users\wayne\source\repos\udemy\C#100CodingExercises\Coding.Exercise\bin\Debug\net10.0\Coding.Exercise.deps.json
+C:\Users\wayne\source\repos\udemy\C#100CodingExercises\Coding.Exercise\bin\Debug\net10.0\Coding.Exercise.runtimeconfig.json
+C:\Users\wayne\source\repos\udemy\C#100CodingExercises\Coding.Exercise\bin\Debug\net10.0\Coding.Exercise.dll
+C:\Users\wayne\source\repos\udemy\C#100CodingExercises\Coding.Exercise\bin\Debug\net10.0\Coding.Exercise.pdb
+C:\Users\wayne\source\repos\udemy\C#100CodingExercises\Coding.Exercise\bin\Debug\net10.0\EnumerablePrinter.dll
+C:\Users\wayne\source\repos\udemy\C#100CodingExercises\Coding.Exercise\obj\Debug\net10.0\Coding.Exercise.csproj.AssemblyReference.cache
+C:\Users\wayne\source\repos\udemy\C#100CodingExercises\Coding.Exercise\obj\Debug\net10.0\Coding.Exercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wayne\source\repos\udemy\C#100CodingExercises\Coding.Exercise\obj\Debug\net10.0\Coding.Exercise.AssemblyInfoInputs.cache
+C:\Users\wayne\source\repos\udemy\C#100CodingExercises\Coding.Exercise\obj\Debug\net10.0\Coding.Exercise.AssemblyInfo.cs
+C:\Users\wayne\source\repos\udemy\C#100CodingExercises\Coding.Exercise\obj\Debug\net10.0\Coding.Exercise.csproj.CoreCompileInputs.cache
+C:\Users\wayne\source\repos\udemy\C#100CodingExercises\Coding.Exercise\obj\Debug\net10.0\Coding.E.A8EE5198.Up2Date
+C:\Users\wayne\source\repos\udemy\C#100CodingExercises\Coding.Exercise\obj\Debug\net10.0\Coding.Exercise.dll
+C:\Users\wayne\source\repos\udemy\C#100CodingExercises\Coding.Exercise\obj\Debug\net10.0\refint\Coding.Exercise.dll
+C:\Users\wayne\source\repos\udemy\C#100CodingExercises\Coding.Exercise\obj\Debug\net10.0\Coding.Exercise.pdb
+C:\Users\wayne\source\repos\udemy\C#100CodingExercises\Coding.Exercise\obj\Debug\net10.0\Coding.Exercise.genruntimeconfig.cache
+C:\Users\wayne\source\repos\udemy\C#100CodingExercises\Coding.Exercise\obj\Debug\net10.0\ref\Coding.Exercise.dll
