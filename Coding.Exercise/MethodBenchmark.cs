@@ -5,24 +5,23 @@ namespace Coding.Exercises;
 
 public static class MethodBenchmark
 {
+    private const int DefaultIterations = 100_000;
+
     public static T Run<T>(
         string name,
         Func<T> method,
-        int iterations = 100_000)
+        int iterations = DefaultIterations)
     {
-        // Warm-up and capture result
+        ArgumentNullException.ThrowIfNull(method);
+        ValidateIterations(iterations);
+
+        // Warm up and preserve the result.
         T result = method();
 
-        var stopwatch = Stopwatch.StartNew();
-
-        for (int i = 0; i < iterations; i++)
-        {
-            _ = method();
-        }
-
-        stopwatch.Stop();
-
-        PrintResults(name, iterations, stopwatch.Elapsed);
+        RunBenchmark(
+            name,
+            () => _ = method(),
+            iterations);
 
         return result;
     }
@@ -30,11 +29,22 @@ public static class MethodBenchmark
     public static void Run(
         string name,
         Action method,
-        int iterations = 100_000)
+        int iterations = DefaultIterations)
     {
-        // Warm-up
+        ArgumentNullException.ThrowIfNull(method);
+        ValidateIterations(iterations);
+
+        // Warm up.
         method();
 
+        RunBenchmark(name, method, iterations);
+    }
+
+    private static void RunBenchmark(
+        string name,
+        Action method,
+        int iterations)
+    {
         var stopwatch = Stopwatch.StartNew();
 
         for (int i = 0; i < iterations; i++)
@@ -62,5 +72,10 @@ public static class MethodBenchmark
         };
 
         results.Print();
+    }
+
+    private static void ValidateIterations(int iterations)
+    {
+        ArgumentOutOfRangeException.ThrowIfNegativeOrZero(iterations);
     }
 }

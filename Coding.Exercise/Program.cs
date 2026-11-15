@@ -99,7 +99,7 @@ m.Print();
 d.Print();
 // result == false, y/m/d == 0
 
-string[] inputs = { "radar", "hello", "racecar", "madam" };
+string[] inputs = { "radar", "hello", "racecar", "madam", };
 
 foreach (string input in inputs)
 {
@@ -107,6 +107,15 @@ foreach (string input in inputs)
     string printPalindrome = PalindromeResult(isPalindrome, input);
     printPalindrome.Print();
 }
+// Benchmark
+MethodBenchmark.Run(
+    "while",
+    () => Exercise.IsPalindrome(inputs[0]));
+
+MethodBenchmark.Run(
+    "LINQ",
+    () => Exercise.IsPalindromeLINQ(inputs[0]));
+
 // => false (space)
 
 string PalindromeResult(bool isPalindrome, string input)

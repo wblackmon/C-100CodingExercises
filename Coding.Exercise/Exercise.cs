@@ -2,6 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
+using System.Reflection.Metadata.Ecma335;
 using System.Runtime.CompilerServices;
 
 namespace Coding.Exercises;
@@ -145,6 +146,14 @@ public class Exercise
         }
         return true;
     }
+
+    public static bool IsPalindromeLINQ(string input)
+    {
+        //your code goes here
+
+        return input.SequenceEqual(input.Reverse());
+    }
+
 
 }
 
