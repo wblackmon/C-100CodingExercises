@@ -154,6 +154,8 @@ public class Exercise
         return input.SequenceEqual(input.Reverse());
     }
 
+    
+
 
 }
 
